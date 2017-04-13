@@ -1,0 +1,68 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="button1" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textIcons</item>
+        <item name="android:layout_margin">@dimen/smallMargin</item>
+    </style>
+    <style name="button2" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textIcons</item>
+        <item name="android:layout_margin">@dimen/smallMargin</item>
+    </style>
+
+    <style name="buttonReset" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/textIcons</item>
+        <item name="android:padding">@dimen/smallpadding</item>
+        <item name="android:layout_marginTop">@dimen/smallMargin</item>
+    </style>
+
+    <style name="Team">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/smallLetters</item>
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginTop">@dimen/smallMargin</item>
+    </style>
+
+    <style name="Score">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/bigLetters</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_marginTop">@dimen/smallMargin</item>
+        <item name="android:layout_marginBottom">@dimen/smallMargin</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="views">
+        <item name="android:layout_marginLeft">@dimen/mediumMargin</item>
+        <item name="android:layout_marginRight">@dimen/mediumMargin</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@color/dividerColor</item>
+
+    </style>
+</resources>
