@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="target">Enter Target Score</string>
+    <string name="Player1">Pro 1</string>
+    <string name="Player2">Pro 2</string>
+    <string name="threePoints">Push Up +3</string>
+    <string name="twoPoints">Squat +2</string>
+    <string name="onePoints">Jumping Jacks +1</string>
+    <string name="start">Start round</string>
+    <string name="reset">Next round</string>
+</resources>
